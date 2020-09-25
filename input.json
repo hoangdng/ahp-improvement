@@ -1,0 +1,62 @@
+{
+    "project": "Chon nha cung cap",
+    "criteria": ["Gia hang hoa", "Thuong hieu"],
+    "providers": ["Nha cung cap no1", "Nha cung cap no2", "Nha cung cap no3"],
+    "totalExpert": 15,
+    "criteriaData":
+    [
+        {
+            "criterion": ["C1"],
+            "symbol": "D1",
+            "score": "6"
+        },
+        {
+            "criterion": ["C2"],
+            "symbol": "D2",
+            "score": "4"
+        },
+        {
+            "criterion": ["C1", "C2"],
+            "symbol": "D3",
+            "score": "5"
+        }
+    ],
+    "providersData":
+    [
+        {
+            "provider": ["A1"],
+            "symbol": "B1",
+            "score": [5, 3]
+        },
+        {
+            "provider": ["A2"],
+            "symbol": "B2",
+            "score": [2, 1]
+        },
+        {
+            "provider": ["A3"],
+            "symbol": "B3",
+            "score": [3, 2]
+        },
+        {
+            "provider": ["A1", "A2"],
+            "symbol": "B4",
+            "score": [4, 3]
+        },
+        {
+            "provider": ["A1", "A3"],
+            "symbol": "B5",
+            "score": [0, 3]
+        },
+        {
+            "provider": ["A2", "A3"],
+            "symbol": "B6",
+            "score": [0, 1]
+        },
+        {
+            "provider": ["A1", "A2", "A3"],
+            "symbol": "B7",
+            "score": [1, 2]
+        }
+    ]
+}
